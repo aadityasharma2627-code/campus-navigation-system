@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+  margin: 0;
+}
+
+/* DARK MODE */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark select, .dark button {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* CONTAINER */
+.container {
+  padding: 20px;
+}
+
+/* CONTROLS */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+select, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* MAP */
+.map-container {
+  position: relative;
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+#map {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  select, button {
+    width: 100%;
+  }
+}

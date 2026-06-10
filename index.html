@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campus Navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Campus Navigation System</h1>
+
+  <div class="controls">
+    <select id="floor">
+      <option value="1">Floor 1</option>
+      <option value="2">Floor 2</option>
+    </select>
+
+    <select id="start"></select>
+    <select id="end"></select>
+
+    <button onclick="findRoute()">Navigate</button>
+    <button onclick="toggleDarkMode()">🌙</button>
+  </div>
+
+  <h3 id="result"></h3>
+
+  <div class="map-container">
+    <img src="map1.jpg" id="map">
+    <canvas id="canvas"></canvas>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>[-
+098765321
