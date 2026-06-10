@@ -37,11 +37,6 @@ git clone https://github.com/aadityasharma2627-code/campus-navigation-system.git
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of your project here)
-
----
 
 ## 🎯 Future Improvements
 
