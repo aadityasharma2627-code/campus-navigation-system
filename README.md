@@ -17,7 +17,6 @@ A smart and interactive campus navigation system designed to help users easily l
 ## 🛠️ Tech Stack
 
 * Frontend: HTML, CSS, JavaScript
-* (Add backend here if you use one)
 
 ---
 
